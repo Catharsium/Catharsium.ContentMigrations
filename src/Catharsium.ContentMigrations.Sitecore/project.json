@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "description": "Catharsium.ContentMigrations.Sitecore Class Library",
+  "authors": [ "thierry.brachthuizer" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Sitecore.Kernel": "1.0.0-*"
+      }
+    }
+  },
+  "dependencies": {
+    "Catharsium.ContentMigrations": "1.0.0-*"
+  }
+}

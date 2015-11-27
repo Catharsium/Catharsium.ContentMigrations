@@ -1,0 +1,54 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "Catharsium.ContentMigrations/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      },
+      "Sitecore.Kernel/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "Catharsium.ContentMigrations/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      },
+      "Sitecore.Kernel/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "Catharsium.ContentMigrations/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      },
+      "Sitecore.Kernel/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      }
+    }
+  },
+  "libraries": {
+    "Catharsium.ContentMigrations/1.0.0": {
+      "type": "project",
+      "path": "../Catharsium.ContentMigrations/project.json"
+    },
+    "Sitecore.Kernel/1.0.0": {
+      "type": "project",
+      "path": "../../wrap/Sitecore.Kernel/project.json"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Catharsium.ContentMigrations >= 1.0.0-*"
+    ],
+    "DNX,Version=v4.5.1": [
+      "Sitecore.Kernel >= 1.0.0-*"
+    ]
+  }
+}

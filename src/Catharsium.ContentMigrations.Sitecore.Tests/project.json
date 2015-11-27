@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+  "description": "Catharsium.ContentMigrations.Sitecore.Tests Class Library",
+  "authors": [ "thierry.brachthuizer" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "Catharsium.ContentMigrations.Sitecore": "1.0.0-*"
+  }
+}
